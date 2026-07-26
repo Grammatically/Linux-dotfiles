@@ -22,4 +22,4 @@ Use GNU stow to create symlinks (all files are just shortcuts to the dotfiles)
 stow .
 ```
 
-# Yippee its done!!! :3 
+## Yippee its done!!! :3 

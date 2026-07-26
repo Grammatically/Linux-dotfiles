@@ -1,0 +1,163 @@
+02:58:22.048: Platform: Wayland
+02:58:22.048: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+02:58:22.048: CPU Speed: 4266.376MHz
+02:58:22.049: Physical Cores: 6, Logical Cores: 12
+02:58:22.049: Physical Memory: 31996MB Total, 16594MB Free
+02:58:22.049: Kernel Version: Linux 7.1.2-3-cachyos
+02:58:22.049: Distribution: "CachyOS Linux" Unknown
+02:58:22.049: Desktop Environment: Hyprland (Hyprland)
+02:58:22.049: Session Type: wayland
+02:58:22.050: Current Date/Time: 2026-07-01, 02:58:22
+02:58:22.050: Browser Hardware Acceleration: true
+02:58:22.050: Qt Version: 6.11.1 (runtime), 6.11.1 (compiled)
+02:58:22.050: Portable mode: false
+02:58:22.077: OBS 32.1.2 (linux)
+02:58:22.077: ---------------------------------
+02:58:22.078: ---------------------------------
+02:58:22.078: audio settings reset:
+02:58:22.078: 	samples per sec: 48000
+02:58:22.078: 	speakers:        2
+02:58:22.078: 	max buffering:   960 milliseconds
+02:58:22.078: 	buffering type:  dynamically increasing
+02:58:22.079: ---------------------------------
+02:58:22.079: Initializing OpenGL...
+02:58:22.079: Using EGL/Wayland
+02:58:22.118: Initialized EGL 1.5
+02:58:22.166: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 4060/PCIe/SSE2
+02:58:22.166: OpenGL loaded successfully, version 3.3.0 NVIDIA 580.173.02, shading language 3.30 NVIDIA via Cg compiler
+02:58:22.186: ---------------------------------
+02:58:22.186: video settings reset:
+02:58:22.186: 	base resolution:   1920x1080
+02:58:22.186: 	output resolution: 1280x720
+02:58:22.186: 	downscale filter:  Bicubic
+02:58:22.186: 	fps:               30/1
+02:58:22.186: 	format:            NV12
+02:58:22.186: 	YUV mode:          Rec. 709/Partial
+02:58:22.186: NV12 texture support enabled
+02:58:22.186: P010 texture support not available
+02:58:22.187: Audio monitoring device:
+02:58:22.187: 	name: Default
+02:58:22.187: 	id: default
+02:58:22.217: ---------------------------------
+02:58:22.218: Failed to load 'en-US' text for module: 'decklink-captions.so'
+02:58:22.219: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+02:58:22.219: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+02:58:22.219: Failed to initialize module 'decklink.so'
+02:58:22.219: os_dlopen(/usr/lib/obs-plugins/frontend-tools.so->/usr/lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+02:58:22.219: 
+02:58:22.219: Module '/usr/lib/obs-plugins/frontend-tools.so' not loaded
+02:58:22.230: [pipewire] Available capture sources:
+02:58:22.230: [pipewire]     - Monitor source
+02:58:22.230: [pipewire]     - Window source
+02:58:22.496: VAAPI: API version 1.23
+02:58:22.551: FFmpeg VAAPI H264 encoding not supported
+02:58:22.836: FFmpeg VAAPI AV1 encoding not supported
+02:58:23.124: FFmpeg VAAPI HEVC encoding not supported
+02:58:23.565: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: true
+02:58:24.429: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.3 | RPC Version: 1)
+02:58:24.429: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.1
+02:58:24.429: [obs-websocket] [obs_module_load] Linked ASIO Version: 103800
+02:58:24.433: [obs-websocket] [obs_module_load] Module loaded.
+02:58:24.435: ---------------------------------
+02:58:24.435:   Loaded Modules:
+02:58:24.435:     text-freetype2.so
+02:58:24.435:     rtmp-services.so
+02:58:24.435:     obs-x264.so
+02:58:24.435:     obs-websocket.so
+02:58:24.435:     obs-webrtc.so
+02:58:24.435:     obs-vst.so
+02:58:24.435:     obs-transitions.so
+02:58:24.435:     obs-qsv11.so
+02:58:24.435:     obs-outputs.so
+02:58:24.435:     obs-nvenc.so
+02:58:24.435:     obs-libfdk.so
+02:58:24.435:     obs-filters.so
+02:58:24.435:     obs-ffmpeg.so
+02:58:24.435:     linux-v4l2.so
+02:58:24.435:     linux-pulseaudio.so
+02:58:24.435:     linux-pipewire.so
+02:58:24.435:     linux-jack.so
+02:58:24.435:     linux-capture.so
+02:58:24.435:     linux-alsa.so
+02:58:24.435:     image-source.so
+02:58:24.435:     decklink-output-ui.so
+02:58:24.435:     decklink-captions.so
+02:58:24.435: ---------------------------------
+02:58:24.435: ---------------------------------
+02:58:24.435: Available Encoders:
+02:58:24.435:   Video Encoders:
+02:58:24.435: 	- ffmpeg_svt_av1 (SVT-AV1)
+02:58:24.435: 	- ffmpeg_aom_av1 (AOM AV1)
+02:58:24.435: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+02:58:24.435: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+02:58:24.435: 	- obs_nvenc_av1_tex (NVIDIA NVENC AV1)
+02:58:24.435: 	- obs_x264 (x264)
+02:58:24.435:   Audio Encoders:
+02:58:24.435: 	- ffmpeg_aac (FFmpeg AAC)
+02:58:24.435: 	- ffmpeg_opus (FFmpeg Opus)
+02:58:24.435: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+02:58:24.435: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+02:58:24.435: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+02:58:24.435: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+02:58:24.435: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+02:58:24.435: 	- libfdk_aac (libfdk AAC)
+02:58:24.435: ==== Startup complete ===============================================
+02:58:24.468: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+02:58:24.468: All scene data cleared
+02:58:24.468: ------------------------------------------------
+02:58:24.472: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+02:58:24.472: Deduplication logic is being applied to all monitored sources.
+02:58:24.472: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.7) 15.0.0'
+02:58:24.472: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+02:58:24.473: pulse-input: Started recording from 'alsa_output.pci-0000_0a_00.4.analog-stereo.monitor' (default)
+02:58:24.473: [Loaded global audio device]: 'Desktop Audio'
+02:58:24.473: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.7) 15.0.0'
+02:58:24.473: pulse-input: Audio format: s24le, 48000 Hz, 1 channels
+02:58:24.473: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+02:58:24.473: pulse-input: Started recording from 'alsa_input.usb-AOKEO_LCS_USB_Audio_000001760000-00.mono-fallback' (default)
+02:58:24.473: [Loaded global audio device]: 'Mic/Aux'
+02:58:24.474: Switched to scene 'Scene'
+02:58:24.474: ------------------------------------------------
+02:58:24.474: Loaded scenes:
+02:58:24.474: - scene 'Scene':
+02:58:24.474: ------------------------------------------------
+02:58:24.627: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+02:58:24.627: Deduplication logic is being applied to all monitored sources.
+02:58:25.022: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+02:58:25.022: 
+02:58:34.913: Palette role "primaryDark" is not valid!
+02:58:34.913: Palette role "primaryLight" is not valid!
+02:58:34.913: Palette role "highlightText" is not valid!
+02:58:34.913: Palette role "primary" is not valid!
+02:58:34.913: Palette role "highlightText" is not valid!
+02:58:34.955: VolumeMeter(0x55e4ec1da430)  does not have a property named  "peakDecayRate"
+02:58:34.978: VolumeMeter(0x55e4ebec6880)  does not have a property named  "peakDecayRate"
+02:58:36.655: Palette role "primaryDark" is not valid!
+02:58:36.655: Palette role "primaryLight" is not valid!
+02:58:36.655: Palette role "highlightText" is not valid!
+02:58:36.655: Palette role "primary" is not valid!
+02:58:36.655: Palette role "highlightText" is not valid!
+02:58:36.695: VolumeMeter(0x55e4ec1da430)  does not have a property named  "peakDecayRate"
+02:58:36.720: VolumeMeter(0x55e4ebec6880)  does not have a property named  "peakDecayRate"
+02:58:38.553: Palette role "primaryDark" is not valid!
+02:58:38.553: Palette role "primaryLight" is not valid!
+02:58:38.553: Palette role "highlightText" is not valid!
+02:58:38.553: Palette role "primary" is not valid!
+02:58:38.553: Palette role "highlightText" is not valid!
+02:58:38.586: VolumeMeter(0x55e4ec1da430)  does not have a property named  "peakDecayRate"
+02:58:38.610: VolumeMeter(0x55e4ebec6880)  does not have a property named  "peakDecayRate"
+02:58:38.661: Settings changed (appearance)
+02:58:38.661: ------------------------------------------------
+02:58:44.578: ==== Shutting down ==================================================
+02:58:44.613: pulse-input: Stopped recording from 'alsa_output.pci-0000_0a_00.4.analog-stereo.monitor'
+02:58:44.613: pulse-input: Got 805 packets with 966000 frames
+02:58:44.613: Deduplication logic stopped.
+02:58:44.613: pulse-input: Stopped recording from 'alsa_input.usb-AOKEO_LCS_USB_Audio_000001760000-00.mono-fallback'
+02:58:44.613: pulse-input: Got 798 packets with 957600 frames
+02:58:44.629: All scene data cleared
+02:58:44.629: ------------------------------------------------
+02:58:44.632: Tried to call obs_frontend_remove_event_callback with no callbacks!
+02:58:44.714: [obs-websocket] [obs_module_unload] Shutting down...
+02:58:44.714: Tried to call obs_frontend_remove_event_callback with no callbacks!
+02:58:44.714: [obs-websocket] [obs_module_unload] Finished shutting down.
+02:58:44.714: Freeing OBS context data

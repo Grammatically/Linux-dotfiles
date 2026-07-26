@@ -1,0 +1,188 @@
+02:39:37.563: Platform: Wayland
+02:39:37.563: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+02:39:37.563: CPU Speed: 4296.773MHz
+02:39:37.564: Physical Cores: 6, Logical Cores: 12
+02:39:37.564: Physical Memory: 31996MB Total, 16478MB Free
+02:39:37.564: Kernel Version: Linux 7.1.2-3-cachyos
+02:39:37.564: Distribution: "CachyOS Linux" Unknown
+02:39:37.564: Desktop Environment: Hyprland (Hyprland)
+02:39:37.564: Session Type: wayland
+02:39:37.564: Current Date/Time: 2026-07-01, 02:39:37
+02:39:37.564: Browser Hardware Acceleration: true
+02:39:37.564: Qt Version: 6.11.1 (runtime), 6.11.1 (compiled)
+02:39:37.564: Portable mode: false
+02:39:37.593: OBS 32.1.2 (linux)
+02:39:37.593: ---------------------------------
+02:39:37.594: ---------------------------------
+02:39:37.594: audio settings reset:
+02:39:37.594: 	samples per sec: 48000
+02:39:37.594: 	speakers:        2
+02:39:37.594: 	max buffering:   960 milliseconds
+02:39:37.594: 	buffering type:  dynamically increasing
+02:39:37.595: ---------------------------------
+02:39:37.595: Initializing OpenGL...
+02:39:37.595: Using EGL/Wayland
+02:39:37.633: Initialized EGL 1.5
+02:39:37.682: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 4060/PCIe/SSE2
+02:39:37.682: OpenGL loaded successfully, version 3.3.0 NVIDIA 580.173.02, shading language 3.30 NVIDIA via Cg compiler
+02:39:37.794: ---------------------------------
+02:39:37.794: video settings reset:
+02:39:37.794: 	base resolution:   1920x1080
+02:39:37.794: 	output resolution: 1280x720
+02:39:37.794: 	downscale filter:  Bicubic
+02:39:37.794: 	fps:               30/1
+02:39:37.794: 	format:            NV12
+02:39:37.794: 	YUV mode:          Rec. 709/Partial
+02:39:37.794: NV12 texture support enabled
+02:39:37.794: P010 texture support not available
+02:39:37.794: Audio monitoring device:
+02:39:37.794: 	name: Default
+02:39:37.794: 	id: default
+02:39:37.824: ---------------------------------
+02:39:37.825: Failed to load 'en-US' text for module: 'decklink-captions.so'
+02:39:37.827: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+02:39:37.828: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+02:39:37.828: Failed to initialize module 'decklink.so'
+02:39:37.828: os_dlopen(/usr/lib/obs-plugins/frontend-tools.so->/usr/lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+02:39:37.828: 
+02:39:37.828: Module '/usr/lib/obs-plugins/frontend-tools.so' not loaded
+02:39:37.845: [pipewire] Available capture sources:
+02:39:37.845: [pipewire]     - Monitor source
+02:39:37.845: [pipewire]     - Window source
+02:39:38.123: VAAPI: API version 1.23
+02:39:38.175: FFmpeg VAAPI H264 encoding not supported
+02:39:38.437: FFmpeg VAAPI AV1 encoding not supported
+02:39:38.696: FFmpeg VAAPI HEVC encoding not supported
+02:39:39.130: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: true
+02:39:39.925: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.3 | RPC Version: 1)
+02:39:39.925: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.1
+02:39:39.925: [obs-websocket] [obs_module_load] Linked ASIO Version: 103800
+02:39:39.925: [obs-websocket] [Config::Load] Existing configuration not found, using defaults.
+02:39:39.925: [obs-websocket] [Config::Load] (FirstLoad) Generating new server password.
+02:39:39.929: [obs-websocket] [obs_module_load] Module loaded.
+02:39:39.930: ---------------------------------
+02:39:39.930:   Loaded Modules:
+02:39:39.930:     text-freetype2.so
+02:39:39.930:     rtmp-services.so
+02:39:39.930:     obs-x264.so
+02:39:39.930:     obs-websocket.so
+02:39:39.930:     obs-webrtc.so
+02:39:39.930:     obs-vst.so
+02:39:39.930:     obs-transitions.so
+02:39:39.930:     obs-qsv11.so
+02:39:39.930:     obs-outputs.so
+02:39:39.931:     obs-nvenc.so
+02:39:39.931:     obs-libfdk.so
+02:39:39.931:     obs-filters.so
+02:39:39.931:     obs-ffmpeg.so
+02:39:39.931:     linux-v4l2.so
+02:39:39.931:     linux-pulseaudio.so
+02:39:39.931:     linux-pipewire.so
+02:39:39.931:     linux-jack.so
+02:39:39.931:     linux-capture.so
+02:39:39.931:     linux-alsa.so
+02:39:39.931:     image-source.so
+02:39:39.931:     decklink-output-ui.so
+02:39:39.931:     decklink-captions.so
+02:39:39.931: ---------------------------------
+02:39:39.931: ---------------------------------
+02:39:39.931: Available Encoders:
+02:39:39.931:   Video Encoders:
+02:39:39.931: 	- ffmpeg_svt_av1 (SVT-AV1)
+02:39:39.931: 	- ffmpeg_aom_av1 (AOM AV1)
+02:39:39.931: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+02:39:39.931: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+02:39:39.931: 	- obs_nvenc_av1_tex (NVIDIA NVENC AV1)
+02:39:39.931: 	- obs_x264 (x264)
+02:39:39.931:   Audio Encoders:
+02:39:39.931: 	- ffmpeg_aac (FFmpeg AAC)
+02:39:39.931: 	- ffmpeg_opus (FFmpeg Opus)
+02:39:39.931: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+02:39:39.931: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+02:39:39.931: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+02:39:39.931: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+02:39:39.931: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+02:39:39.931: 	- libfdk_aac (libfdk AAC)
+02:39:39.931: ==== Startup complete ===============================================
+02:39:39.933: No scene file found, creating default scene
+02:39:39.963: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+02:39:39.963: All scene data cleared
+02:39:39.963: ------------------------------------------------
+02:39:39.975: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+02:39:39.975: Deduplication logic is being applied to all monitored sources.
+02:39:39.975: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.7) 15.0.0'
+02:39:39.975: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+02:39:39.975: pulse-input: Started recording from 'alsa_output.pci-0000_0a_00.4.analog-stereo.monitor' (default)
+02:39:39.975: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.7) 15.0.0'
+02:39:39.975: pulse-input: Audio format: s24le, 48000 Hz, 1 channels
+02:39:39.975: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+02:39:39.975: pulse-input: Started recording from 'alsa_input.usb-AOKEO_LCS_USB_Audio_000001760000-00.mono-fallback' (default)
+02:39:39.976: Switched to scene 'Scene'
+02:39:39.976: Created scene collection 'Untitled' (clean, Untitled.json)
+02:39:39.976: ------------------------------------------------
+02:39:40.129: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+02:39:40.129: Deduplication logic is being applied to all monitored sources.
+02:39:40.517: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+02:39:40.517: 
+02:39:40.709: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+02:39:40.709: 
+02:40:09.848: 
+02:40:09.848: ==== Auto-config wizard testing commencing ======
+
+02:40:09.908: ---------------------------------
+02:40:09.908: video settings reset:
+02:40:09.908: 	base resolution:   1920x1080
+02:40:09.908: 	output resolution: 128x128
+02:40:09.908: 	downscale filter:  Bicubic
+02:40:09.908: 	fps:               60/1
+02:40:09.908: 	format:            NV12
+02:40:09.908: 	YUV mode:          Rec. 709/Partial
+02:40:09.908: NV12 texture support enabled
+02:40:09.908: P010 texture support not available
+02:40:09.908: ---------------------------------
+02:40:09.908: [x264 encoder: 'test_x264'] preset: veryfast
+02:40:09.908: [x264 encoder: 'test_x264'] settings:
+02:40:09.908: 	rate_control: CBR
+02:40:09.908: 	bitrate:      10000
+02:40:09.908: 	buffer size:  10000
+02:40:09.908: 	crf:          23
+02:40:09.908: 	fps_num:      60
+02:40:09.908: 	fps_den:      1
+02:40:09.908: 	width:        128
+02:40:09.908: 	height:       128
+02:40:09.908: 	keyint:       120
+02:40:09.908: 
+02:40:09.910: ---------------------------------
+02:40:09.910: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+02:40:09.910: 
+02:40:09.910: [rtmp stream: 'test_stream'] Connecting to RTMP URL k...
+02:40:09.932: RTMP URL: No :// in url!
+02:40:09.932: [rtmp stream: 'test_stream'] Connection to k failed: -1
+02:40:09.950: ---------------------------------
+02:40:09.950: video settings reset:
+02:40:09.950: 	base resolution:   1920x1080
+02:40:09.950: 	output resolution: 1280x720
+02:40:09.950: 	downscale filter:  Bicubic
+02:40:09.950: 	fps:               30/1
+02:40:09.950: 	format:            NV12
+02:40:09.950: 	YUV mode:          Rec. 709/Partial
+02:40:09.950: NV12 texture support enabled
+02:40:09.950: P010 texture support not available
+02:40:12.013: 
+02:40:12.013: ==== Auto-config wizard testing stopping ========
+
+02:47:46.544: ==== Shutting down ==================================================
+02:47:46.581: pulse-input: Stopped recording from 'alsa_output.pci-0000_0a_00.4.analog-stereo.monitor'
+02:47:46.581: pulse-input: Got 19463 packets with 23355600 frames
+02:47:46.581: Deduplication logic stopped.
+02:47:46.581: pulse-input: Stopped recording from 'alsa_input.usb-AOKEO_LCS_USB_Audio_000001760000-00.mono-fallback'
+02:47:46.582: pulse-input: Got 19456 packets with 23347200 frames
+02:47:46.597: All scene data cleared
+02:47:46.597: ------------------------------------------------
+02:47:46.598: Crash sentinel location '/home/gramm/.config/obs-studio/.sentinel' does not exist
+02:47:46.600: Tried to call obs_frontend_remove_event_callback with no callbacks!
+02:47:46.685: [obs-websocket] [obs_module_unload] Shutting down...
+02:47:46.685: Tried to call obs_frontend_remove_event_callback with no callbacks!
+02:47:46.685: [obs-websocket] [obs_module_unload] Finished shutting down.
+02:47:46.685: Freeing OBS context data
+02:47:46.700: Crash sentinel location '/home/gramm/.config/obs-studio/.sentinel' does not exist

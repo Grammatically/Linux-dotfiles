@@ -22,4 +22,6 @@ Use GNU stow to create symlinks (all files are just shortcuts to the dotfiles)
 stow .
 ```
 
+powerlvl10k fonts may be broken if so then install [jetbrainsmono nerd font](https://www.jetbrains.com/lp/mono/#font-family)
+
 ## Yippee its done!!! :3 

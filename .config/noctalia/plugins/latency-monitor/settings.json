@@ -1,0 +1,17 @@
+{
+  "hosts": [
+    {
+      "name": "Cloudflare DNS",
+      "address": "1.1.1.1"
+    }
+  ],
+  "intervalSeconds": 5,
+  "thresholdGood": 20,
+  "thresholdWarning": 70,
+  "showHostName": false,
+  "barHost": "worst",
+  "colorGood": "#00ff7f",
+  "colorWarning": "#f1fa8c",
+  "colorCritical": "#ff5555",
+  "animations": true
+}

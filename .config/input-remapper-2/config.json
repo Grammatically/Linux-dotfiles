@@ -1,0 +1,6 @@
+{
+    "version": "2.2.1",
+    "autoload": {
+        "Logitech G203 LIGHTSYNC Gaming Mouse": "new preset"
+    }
+}

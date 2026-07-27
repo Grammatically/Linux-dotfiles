@@ -13,15 +13,15 @@ First, check out the dotfiles repo in your $HOME directory using git:
 
 ```
 git clone git@github.com/Grammatically/Linux-dotfiles.git
-cd dotfiles
+cd Linux-dotfiles
 ```
 
 Use GNU stow to create symlinks (all files are just shortcuts to the dotfiles)
 
 ```
-stow .
+stow --adopt .
 ```
 
-powerlvl10k fonts may be broken if so then install [jetbrainsmono nerd font](https://www.jetbrains.com/lp/mono/#font-family)
+powerlvl10k fonts may be broken if so then install [jetbrainsmono nerd font](https://www.jetbrains.com/lp/mono/#font-family)g
 
 ## Yippee its done!!! :3 

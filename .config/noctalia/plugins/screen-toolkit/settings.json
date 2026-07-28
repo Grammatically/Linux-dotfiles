@@ -1,13 +1,13 @@
 {
   "colorHistory": [
+    "#EDC2C0",
     "#131216",
     "#201E30",
     "#EA9A97",
     "#E97C17",
     "#222035",
     "#2D2943",
-    "#C26DF4",
-    "#DA68DA"
+    "#C26DF4"
   ],
   "paletteColors": "",
   "installedLangs": [
@@ -23,12 +23,12 @@
   "recordSkipConfirmation": false,
   "recordCopyToClipboard": false,
   "gifMaxSeconds": 30,
-  "resultHex": "",
-  "resultRgb": "",
-  "resultHsv": "",
-  "resultHsl": "",
-  "colorCapturePath": "",
-  "colorCacheBust": 0,
+  "resultHex": "#EDC2C0",
+  "resultRgb": "rgb(237, 194, 192)",
+  "resultHsv": "hsv(3, 19%, 93%)",
+  "resultHsl": "hsl(3, 56%, 84%)",
+  "colorCapturePath": "/tmp/screen-toolkit-colorpicker.png",
+  "colorCacheBust": 1785259448464,
   "ocrResult": "",
   "ocrCapturePath": "",
   "qrResult": "",

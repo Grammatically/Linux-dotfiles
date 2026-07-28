@@ -4,7 +4,7 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd("xhost +SI:localuser:root")
 
     -- Load plugins
-    hl.exec_cmd("sh -c 'hyprpm reload && hyprctl plugin load gloview.so' && hyprpm enable gloview")
+    --hl.exec_cmd("sh -c 'hyprpm reload && hyprctl plugin load gloview.so' && hyprpm enable gloview")
 
     -- Cursor
     hl.exec_cmd("hyprctl setcursor BreezeX-RosePine-Linux 32")

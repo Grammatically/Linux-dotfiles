@@ -22,9 +22,9 @@ hl.bind(mainMod .. " + Down",  hl.dsp.focus({ direction = "down" }))
 hl.bind("ALT + Tab",           hl.dsp.window.cycle_next())
 hl.bind(mainMod .. " + SHIFT + N",
 hl.dsp.exec_cmd("hyprctl setcursor BreezeX-RosePine-Linux 32"))
-hl.bind("SUPER + TAB", hl.plugin.gloview.toggle)
-hl.bind("SUPER + SHIFT + TAB", hl.plugin.gloview.desktop)
-hl.bind("SUPER + CTRL + TAB", hl.plugin.gloview.allworkspaces)
+-- hl.bind("SUPER + TAB", hl.plugin.gloview.toggle)
+-- hl.bind("SUPER + SHIFT + TAB", hl.plugin.gloview.desktop)
+-- hl.bind("SUPER + CTRL + TAB", hl.plugin.gloview.allworkspaces)
 hl.bind(mainMod .. " + ALT + Right", hl.dsp.focus({ workspace = "r+1" }))
 hl.bind(mainMod .. " + ALT + Left",  hl.dsp.focus({ workspace = "r-1" }))
 

@@ -25,3 +25,15 @@ stow --adopt .
 powerlvl10k fonts may be broken if so then install [jetbrainsmono nerd font](https://www.jetbrains.com/lp/mono/#font-family)g
 
 ## Yippee its done!!! :3 
+
+
+## Push Updates
+
+If you haven't synced your dotfiles in some time run these:
+
+```
+cd Linux-dotfiles
+git add .
+git commit -m "Syncing Changes"
+git push
+```
